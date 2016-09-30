@@ -37,7 +37,7 @@ class API {
     fwrite($file, $imgData);
     fclose($file);
 
-    $output = shell_exec('python tensorflow/image_recognition.py --image_file="' + $path + '"');
+    $output = shell_exec('python.sh');
     $myfile = fopen("tensorflow/python_output", "r") or die("Unable to open file!");
     $data = fread($myfile,filesize('tensorflow/python_output'));
     fclose($myfile);

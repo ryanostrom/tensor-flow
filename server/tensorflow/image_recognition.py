@@ -39,6 +39,8 @@ import numpy as np
 from six.moves import urllib
 import tensorflow as tf
 
+import pdb
+
 FLAGS = tf.app.flags.FLAGS
 
 # classify_image_graph_def.pb:
@@ -159,6 +161,8 @@ def run_inference_on_image(image):
     #   encoding of the image.
     # Runs the softmax tensor by feeding the image_data as input to the graph.
     softmax_tensor = sess.graph.get_tensor_by_name('softmax:0')
+    # pdb.set_trace()
+
     predictions = sess.run(softmax_tensor,
                            {'DecodeJpeg/contents:0': image_data})
     predictions = np.squeeze(predictions)
