@@ -1,0 +1,6 @@
+DirectoryIndex index.html
+
+Options +FollowSymlinks
+RewriteBase /
+RewriteEngine ON
+RewriteRule ^api/(.*)?$ index.php?method=$1 [L]

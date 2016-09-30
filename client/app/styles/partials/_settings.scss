@@ -1,0 +1,137 @@
+/** Colors */
+$white: #FFFFFF;
+$offwhite: #FAFAFA;
+$lightgray: #DEDEDE;
+$speckle: #EDEDED;
+$gravel: #777;
+$charcoal: #555;
+$dark-gray: #333;
+$light-gray: #CCC;
+$black: #000000;
+$red: #AA1414;
+$green: #18AA14;
+$blue: #257fb9;
+$dark-blue: #2c5975;
+
+/** Sizes */
+$max-width: 100%;
+$radius: 4px;
+$default: 16px;
+$normal: 300;
+$heavy: 500;
+$bold: 700;
+
+/** Breakpoint */
+$tablet: new-breakpoint(min-width 721px 2);
+$desktop: new-breakpoint(min-width 1051px 12);
+
+/** Padding */
+$size0: 0rem;
+$size1: 0.5rem;
+$size2: 1rem;
+$size3: 1.5rem;
+$size4: 2rem;
+$size5: 2.5rem;
+$size6: 3rem;
+
+.padtop-0 { padding-top: $size0; }
+.padtop-1 { padding-top: $size1; }
+.padtop-2 { padding-top: $size2; }
+.padtop-3 { padding-top: $size3; }
+.padtop-4 { padding-top: $size4; }
+.padtop-5 { padding-top: $size5; }
+.padtop-6 { padding-top: $size6; }
+
+.padright-0 { padding-right: $size0; }
+.padright-1 { padding-right: $size1; }
+.padright-2 { padding-right: $size2; }
+.padright-3 { padding-right: $size3; }
+.padright-4 { padding-right: $size4; }
+.padright-5 { padding-right: $size5; }
+.padright-6 { padding-right: $size6; }
+
+.padbot-0 { padding-bottom: $size0; }
+.padbot-1 { padding-bottom: $size1; }
+.padbot-2 { padding-bottom: $size2; }
+.padbot-3 { padding-bottom: $size3; }
+.padbot-4 { padding-bottom: $size4; }
+.padbot-5 { padding-bottom: $size5; }
+.padbot-6 { padding-bottom: $size6; }
+
+.padleft-0 { padding-left: $size0; }
+.padleft-1 { padding-left: $size1; }
+.padleft-2 { padding-left: $size2; }
+.padleft-3 { padding-left: $size3; }
+.padleft-4 { padding-left: $size4; }
+.padleft-5 { padding-left: $size5; }
+.padleft-6 { padding-left: $size6; }
+
+.padall-0 { padding: $size0; }
+.padall-1 { padding: $size1; }
+.padall-2 { padding: $size2; }
+.padall-3 { padding: $size3; }
+.padall-4 { padding: $size4; }
+.padall-5 { padding: $size5; }
+.padall-6 { padding: $size6; }
+
+.martop-0 { margin-top: $size0; }
+.martop-1 { margin-top: $size1; }
+.martop-2 { margin-top: $size2; }
+.martop-3 { margin-top: $size3; }
+.martop-4 { margin-top: $size4; }
+.martop-5 { margin-top: $size5; }
+.martop-6 { margin-top: $size6; }
+
+.marright-0 { margin-right: $size0; }
+.marright-1 { margin-right: $size1; }
+.marright-2 { margin-right: $size2; }
+.marright-3 { margin-right: $size3; }
+.marright-4 { margin-right: $size4; }
+.marright-5 { margin-right: $size5; }
+.marright-6 { margin-right: $size6; }
+
+.marbot-0 { margin-bottom: $size0; }
+.marbot-1 { margin-bottom: $size1; }
+.marbot-2 { margin-bottom: $size2; }
+.marbot-3 { margin-bottom: $size3; }
+.marbot-4 { margin-bottom: $size4; }
+.marbot-5 { margin-bottom: $size5; }
+.marbot-6 { margin-bottom: $size6; }
+
+.marleft-0 { margin-left: $size0; }
+.marleft-1 { margin-left: $size1; }
+.marleft-2 { margin-left: $size2; }
+.marleft-3 { margin-left: $size3; }
+.marleft-4 { margin-left: $size4; }
+.marleft-5 { margin-left: $size5; }
+.marleft-6 { margin-left: $size6; }
+
+.marall-0 { margin: $size0; }
+.marall-1 { margin: $size1; }
+.marall-2 { margin: $size2; }
+.marall-3 { margin: $size3; }
+.marall-4 { margin: $size4; }
+.marall-5 { margin: $size5; }
+.marall-6 { margin: $size6; }
+
+/** Fonts */
+@font-face {
+  font-family: 'Brandon';
+  src: url('/assets/fonts/Brandon_reg.otf');
+}
+@font-face {
+  font-family: 'Brandon-Black';
+  src: url('/assets/fonts/Brandon_blk.otf');
+}
+@font-face {
+  font-family: 'Brandon-Light';
+  src: url('/assets/fonts/Brandon_light.otf');
+}
+@font-face {
+  font-family: 'Source-Light';
+  src: url('/assets/fonts/Source-Light.otf');
+}
+@font-face {
+  font-family: 'Source-Regular';
+  src: url('/assets/fonts/Source-Regular.otf');
+}

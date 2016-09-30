@@ -1,0 +1,51 @@
+#loading {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: table;
+  background: $white;
+
+  .spinner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.fa-spinner {
+  font-size: 64px;
+  -webkit-animation: doSpin 1500ms linear infinite;
+  animation: doSpin 1500ms linear infinite;
+}
+
+@-webkit-keyframes doSpin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes doSpin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}

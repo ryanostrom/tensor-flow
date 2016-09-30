@@ -1,0 +1,33 @@
+footer {
+  background: $charcoal;
+  height: auto;
+  padding-bottom: 24px;
+
+  ul {
+    text-align: center;
+
+    li {
+      display: inline-block;
+
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  .fa {
+    font-size: 3rem;
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  span {
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: Brandon-Light;
+    display: block;
+    padding: 24px 0 12px;
+    color: $light-gray;
+  }
+}

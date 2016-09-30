@@ -1,0 +1,33 @@
+@-ms-viewport { width: device-width; }
+
+body { margin: 0; background: $charcoal; }
+main, nav { background: $white; }
+
+h1 { font-family: Brandon-Thin; }
+h2, p, li { font-family: Brandon; }
+h3 { font-family: Brandon-Light; }
+h4 { font-family: Brandon-Light-Italic; }
+
+.form__control {
+  display: block;
+  width: 100%;
+
+  p {
+    position: relative;
+    margin-top: -40px;
+    margin-right: 12px;
+    color: $red;
+    text-align: right;
+    pointer-events: none;
+  }
+}
+
+.form { width: 100%; }
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: $black;
+  opacity: 0.15;
+  position: absolute;
+  top: 0;
+}

@@ -1,0 +1,22 @@
+{{#section-hero id="home" title="TensorFlow"}}
+  A machine learning tool that recognizes images
+{{/section-hero}}
+
+{{#container-wide title="Image Recognizer"}}
+  {{#file-picker
+    readAs="readAsDataURL"
+    accept=".jpg,.jpeg,.gif,.png"
+    fileLoaded="fileLoaded"
+  }}
+    Upload File!
+  {{/file-picker}}
+
+  <div class="result {{if result "show" ""}}">
+    <ul>
+      {{#each result as |item|}}
+        <li>{{item}}</li>
+      {{/each}}
+    </ul>
+  </div>
+{{/container-wide}}
+

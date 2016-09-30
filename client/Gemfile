@@ -1,0 +1,10 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+gem 'chunky_png', '1.2'
+gem 'compass-core', '1.1.0.alpha.3'
+gem 'compass-import-once', '1.0.5'
+gem 'rb-fsevent', '0.9.3'
+gem 'rb-inotify', '0.9'
+gem 'sass', '3.3.13'
+gem 'compass', '1.1.0.alpha.3'

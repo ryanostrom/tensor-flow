@@ -1,0 +1,105 @@
+section {
+  width: 100vw;
+  margin: auto;
+  padding: 16px 24px 48px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  @include media($tablet) {
+    background-attachment: fixed;
+  }
+
+  &.cover {
+    background-position: center center;
+    display: table;
+    max-width: initial;
+    padding: 32px 0;
+
+    &.splash {
+      padding: 144px 0 !important;
+    }
+
+    &.hero {
+      min-height: 500px;
+      height: 50vh;
+      background-attachment: initial;
+    }
+
+    h2 {
+      color: $white;
+    }
+
+    span {
+      color: $light-gray;
+      text-shadow: 1px 1px 1px $black;
+    }
+
+    &#home {
+      background-image: url('images/hero-background.jpg');
+    }
+
+    h3 {
+      color: $white;
+      text-transform: uppercase;
+      font-family: Brandon-Black;
+    }
+  }
+
+  .center {
+    display: table-cell;
+    vertical-align: middle;
+    height: auto;
+    position: relative;
+    text-align: center;
+
+    @include media($tablet) {
+      padding: 0;
+    }
+  }
+
+  h2 {
+    font-family: Brandon-Black;
+    color: $dark-blue;
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 6px;
+    padding: 12px 0 18px;
+    margin: auto;
+    font-weight: 300;
+    line-height: 1;
+
+    @include media($tablet) {
+      width: 500px;
+      padding: 12px 0;
+    }
+  }
+
+  h3 {
+    font-family: Brandon;
+    color: $charcoal;
+    font-size: 2rem;
+    font-weight: 300;
+    color: $dark-gray;
+    text-align: center;
+  }
+
+  span {
+    font-family: 'Helvetica Neue';
+    color: $white;
+    font-weight: 300;
+    font-size: 1.25rem;
+    display: block;
+    padding: 12px 0;
+  }
+
+  p {
+    font-family: Brandon-Light;
+    font-size: 1.2rem;
+    color: $gravel;
+    text-align: center;
+  }
+}

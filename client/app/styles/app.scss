@@ -1,0 +1,14 @@
+/** mixins */
+@import
+  'mixins/bourbon/bourbon',
+  'mixins/neat/neat',
+  'mixins/foundation/foundation';
+
+/** partials */
+@import
+  'partials/settings',
+  'partials/base',
+  'partials/loading',
+  'partials/footer',
+  'partials/section',
+  'partials/fileUpload';
