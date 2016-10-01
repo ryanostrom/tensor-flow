@@ -9,7 +9,7 @@ export default Ember.Controller.extend({
     fileLoaded: function(file) {
       let self = this;
       // console.log(file.filename, file.type, file.data, file.size);
-      return self.get('ajax').request(`/api/imageRecognition`, {
+      return self.get('ajax').request(`/api/index.php?method=imageRecognition`, {
         method: 'POST',
         data: {dataUri: file.data}
       }).then((result) => {
